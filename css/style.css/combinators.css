@@ -1,0 +1,64 @@
+ div h1{
+    color: blue;
+    text-align: center ;
+ }
+
+div>p{
+    color: red;
+}
+ 
+div+p{
+
+   background-color: yellow;
+}
+
+div-p{
+    font-size:32px ;
+}
+    /* psuodo link */
+
+/* unvisted link  */
+
+.sudo:link{
+    color: green;
+    text-decoration: none;
+}
+ /* hover */
+sudo:hover{
+    color: red;
+}
+visited link
+.sudo:visited{
+  color: brown;
+}
+/* active link  */
+:active{
+    color:black;
+}
+p:first-child{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+p-i:first-child{
+color: yellow;
+
+}
+/* psduo element  */
+p::first-line{
+ text-decoration:underline ;
+}
+
+p::first-letter{
+    font-size: 32px;
+}
+h1::befor{
+    content: url(../style.css/whatsapp-873316_1280.webp);
+}
+::marker{
+    color:pink
+}
+::selection{
+    background-color: black;
+}
+

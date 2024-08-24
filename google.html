@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Example</title>
+</head>
+<body>
+
+<form action="./success.html">
+  <fieldset>
+    <legend>Name and Address</legend>
+
+    <label for="use-civicrm">Do you use CiviCRM?</label><br>
+    <input type="radio" id="use-civicrm-yes" name="use-civicrm" value="yes">
+    <label for="use-civicrm-yes">Yes</label>
+    <input type="radio" id="use-civicrm-no" name="use-civicrm" value="no">
+    <label for="use-civicrm-no">No</label><br><br>
+
+    <label for="civicrm-duration">How long have you been using CiviCRM?</label><br>
+    <select id="civicrm-duration" name="civicrm-duration" required>
+      <option value="">Select</option>
+      <option value="water">Water</option>
+      <option value="milk">Milk</option>
+      <option value="gas">Gas</option>
+      <option value="electricity">Electricity</option>
+    </select><br><br>
+
+    <label for="cms-used">Which CMS do you use?</label><br>
+    <select id="cms-used" name="cms-used" required>
+      <option value="">Select</option>
+      <option value="water">Water</option>
+      <option value="milk">Milk</option>
+      <option value="gas">Gas</option>
+      <option value="electricity">Electricity</option>
+    </select><br><br>
+
+    <label for="skill-set">Your skill set?</label><br>
+    <select id="skill-set" name="skill-set" required>
+      <option value="">Select</option>
+      <option value="water">Water</option>
+      <option value="milk">Milk</option>
+      <option value="gas">Gas</option>
+      <option value="electricity">Electricity</option>
+    </select><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="first-name">First Name:</label><br>
+    <input type="text" id="first-name" name="first-name" required><br><br>
+
+    <label for="last-name">Last Name:</label><br>
+    <input type="text" id="last-name" name="last-name" required><br><br>
+
+    <label for="street-address">Street Address (Home):</label><br>
+    <input type="text" id="street-address" name="street-address" required><br><br>
+
+    <label for="city">City (Home):</label><br>
+    <input type="text" id="city" name="city" required><br><br>
+
+    <label for="postal-code">Postal Code (Home):</label><br>
+    <input type="text" id="postal-code" name="postal-code" required><br><br>
+
+    <label for="country">Country (Home):</label><br>
+    <select id="country" name="country" required>
+      <option value="">Select</option>
+      <option value="water">Water</option>
+      <option value="milk">Milk</option>
+      <option value="gas">Gas</option>
+      <option value="electricity">Electricity</option>
+    </select><br><br>
+
+    <label for="state">State (Home):</label><br>
+    <select id="state" name="state" required>
+      <option value="">Select</option>
+      <option value="water">Water</option>
+      <option value="milk">Milk</option>
+      <option value="gas">Gas</option>
+      <option value="electricity">Electricity</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </fieldset>
+</form>
+
+</body>
+</html>
